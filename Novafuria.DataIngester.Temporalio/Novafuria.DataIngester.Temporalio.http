@@ -1,0 +1,6 @@
+@Novafuria.DataIngester_HostAddress = http://localhost:5051
+
+GET {{Novafuria.DataIngester_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

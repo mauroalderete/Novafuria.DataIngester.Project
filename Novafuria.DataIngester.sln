@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Temporalio", "Novafuria.DataIngester.Temporalio\Novafuria.DataIngester.Temporalio.csproj", "{7E452754-1A7B-4829-853C-9D71246B817D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Lifecycle.Temporalio.Infrastructure", "Novafuria.DataIngester.Lifecycle.Temporalio.Infrastructure\Novafuria.DataIngester.Lifecycle.Temporalio.Infrastructure.csproj", "{C3743DB7-A421-4B90-85AC-E9181ABF473B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Domain.Core", "Novafuria.DataIngester.Domain.Core\Novafuria.DataIngester.Domain.Core.csproj", "{66A76571-FBA0-45E6-BE43-068F71431A4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Domain.UseCases", "Novafuria.DataIngester.Domain.UseCases\Novafuria.DataIngester.Domain.UseCases.csproj", "{E0403F88-6F37-4025-8323-1BAB2B0D6980}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Domain.Infrastructure", "Novafuria.DataIngester.Domain.Infrastructure\Novafuria.DataIngester.Domain.Infrastructure.csproj", "{87475A96-4BDA-4F09-A2B5-0FAAFDEABF3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Lifecycle.Domain.Core", "Novafuria.DataIngester.Lifecycle.Domain.Core\Novafuria.DataIngester.Lifecycle.Domain.Core.csproj", "{327FE37D-9E90-419E-9BEF-DEB9AF8437EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Lifecycle.Domain.Infrastructure", "Novafuria.DataIngester.Lifecycle.Domain.Infrastructure\Novafuria.DataIngester.Lifecycle.Domain.Infrastructure.csproj", "{F0605C9B-62EC-469E-95ED-4EBAEAFC9D24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Lifecycle.Domain.UseCases", "Novafuria.DataIngester.Lifecycle.Domain.UseCases\Novafuria.DataIngester.Lifecycle.Domain.UseCases.csproj", "{40E5D3C3-2017-4EE6-A463-19ABA8228175}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Lifecycle.Temporalio.Presentation", "Novafuria.DataIngester.Lifecycle.Temporalio.Presentation\Novafuria.DataIngester.Lifecycle.Temporalio.Presentation.csproj", "{AC61772C-9F94-4F7E-BC2E-AA4B1FE86BE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Lifecycle.Temporalio.UseCases", "Novafuria.DataIngester.Lifecycle.Temporalio.UseCases\Novafuria.DataIngester.Lifecycle.Temporalio.UseCases.csproj", "{14D4DC3A-39A4-4A37-A7EE-3F7B812406C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novafuria.DataIngester.Lifecycle.Base.UseCases", "Novafuria.DataIngester.Lifecycle.Base.UseCases\Novafuria.DataIngester.Lifecycle.Base.UseCases.csproj", "{AC5FB2BD-EB51-4808-AFEF-10B3DF0517DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E452754-1A7B-4829-853C-9D71246B817D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E452754-1A7B-4829-853C-9D71246B817D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E452754-1A7B-4829-853C-9D71246B817D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E452754-1A7B-4829-853C-9D71246B817D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3743DB7-A421-4B90-85AC-E9181ABF473B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3743DB7-A421-4B90-85AC-E9181ABF473B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3743DB7-A421-4B90-85AC-E9181ABF473B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3743DB7-A421-4B90-85AC-E9181ABF473B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A76571-FBA0-45E6-BE43-068F71431A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A76571-FBA0-45E6-BE43-068F71431A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A76571-FBA0-45E6-BE43-068F71431A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A76571-FBA0-45E6-BE43-068F71431A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0403F88-6F37-4025-8323-1BAB2B0D6980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0403F88-6F37-4025-8323-1BAB2B0D6980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0403F88-6F37-4025-8323-1BAB2B0D6980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0403F88-6F37-4025-8323-1BAB2B0D6980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87475A96-4BDA-4F09-A2B5-0FAAFDEABF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87475A96-4BDA-4F09-A2B5-0FAAFDEABF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87475A96-4BDA-4F09-A2B5-0FAAFDEABF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87475A96-4BDA-4F09-A2B5-0FAAFDEABF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327FE37D-9E90-419E-9BEF-DEB9AF8437EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327FE37D-9E90-419E-9BEF-DEB9AF8437EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327FE37D-9E90-419E-9BEF-DEB9AF8437EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327FE37D-9E90-419E-9BEF-DEB9AF8437EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0605C9B-62EC-469E-95ED-4EBAEAFC9D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0605C9B-62EC-469E-95ED-4EBAEAFC9D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0605C9B-62EC-469E-95ED-4EBAEAFC9D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0605C9B-62EC-469E-95ED-4EBAEAFC9D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E5D3C3-2017-4EE6-A463-19ABA8228175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E5D3C3-2017-4EE6-A463-19ABA8228175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E5D3C3-2017-4EE6-A463-19ABA8228175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E5D3C3-2017-4EE6-A463-19ABA8228175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC61772C-9F94-4F7E-BC2E-AA4B1FE86BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC61772C-9F94-4F7E-BC2E-AA4B1FE86BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC61772C-9F94-4F7E-BC2E-AA4B1FE86BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC61772C-9F94-4F7E-BC2E-AA4B1FE86BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D4DC3A-39A4-4A37-A7EE-3F7B812406C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D4DC3A-39A4-4A37-A7EE-3F7B812406C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D4DC3A-39A4-4A37-A7EE-3F7B812406C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D4DC3A-39A4-4A37-A7EE-3F7B812406C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC5FB2BD-EB51-4808-AFEF-10B3DF0517DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5FB2BD-EB51-4808-AFEF-10B3DF0517DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5FB2BD-EB51-4808-AFEF-10B3DF0517DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5FB2BD-EB51-4808-AFEF-10B3DF0517DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0614028-F012-4043-97D3-789EF11C615D}
+	EndGlobalSection
+EndGlobal

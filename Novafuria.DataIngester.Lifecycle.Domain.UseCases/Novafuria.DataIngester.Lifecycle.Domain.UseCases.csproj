@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Novafuria.DataIngester.Domain.Core\Novafuria.DataIngester.Domain.Core.csproj" />
+    <ProjectReference Include="..\Novafuria.DataIngester.Lifecycle.Domain.Core\Novafuria.DataIngester.Lifecycle.Domain.Core.csproj" />
+    <ProjectReference Include="..\Novafuria.DataIngester.Lifecycle.Domain.Infrastructure\Novafuria.DataIngester.Lifecycle.Domain.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
