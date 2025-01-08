@@ -34,7 +34,7 @@ namespace Novafuria.DataIngester.Lifecycle.Base.UseCases.Activities
         {
             return await Task.Run(() =>
             {
-                _domainLifecycleRepository.SaveDomainLifecycleAsync(lifecycleAggregate);
+                lifecycleAggregate.Initialize();
 
                 return lifecycleAggregate.DomainEvents;
             });

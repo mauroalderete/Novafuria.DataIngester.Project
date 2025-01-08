@@ -4,6 +4,7 @@ using Novafuria.DataIngester.Lifecycle.Temporalio.UseCases.Activities;
 using Novafuria.DataIngester.Lifecycle.Temporalio.UseCases.Workflows;
 using Novafuria.DataIngester.Lifecycle.Domain.UseCases;
 using Novafuria.DataIngester.Lifecycle.Temporalio.UseCases.Extensions.Options;
+using Novafuria.DataIngester.Lifecycle.Domain.UseCases.Activities;
 
 namespace Novafuria.DataIngester.Lifecycle.Temporalio.UseCases.Extensions
 {
