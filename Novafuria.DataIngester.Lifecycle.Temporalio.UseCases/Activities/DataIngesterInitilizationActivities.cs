@@ -41,17 +41,18 @@ namespace Novafuria.DataIngester.Lifecycle.Temporalio.UseCases.Activities
         {
             var result = await _activitiesBase.InitializeLifecycleAsync(lifecycleAggregate);
 
+            WorkflowOptions options = new WorkflowOptions("prueb1", "NOVAFURIA_DATAINGESTER_TEMPORALIO_TASK_QUEUE");
 
-            var handle = await _client.CreateScheduleAsync(
-                "my-schedule-id",
-            new(
-                    Action: ScheduleActionStartWorkflow.Create(
-                        (MyWorkflow wf) => wf.RunAsync(),
-                        new(id: "my-workflow-id", taskQueue: "my-task-queue")),
-                    Spec: new()
-                    {
-                        Intervals = new List<ScheduleIntervalSpec> { new(Every: TimeSpan.FromDays(1)) },
-                    }));
+            ScheduleActionStartWorkflow w = new ScheduleActionStartWorkflow("asdasd", [], options, null);
+            ScheduleSpec spec = new ScheduleSpec
+            {
+                Intervals = new List<ScheduleIntervalSpec> { new ScheduleIntervalSpec(Every: TimeSpan.FromDays(1)) }
+            };
+
+            Schedule s = new Schedule(w, spec);
+
+
+            var handle = await _client.CreateScheduleAsync("my-schedule-id",s);
 
             return result;
         }

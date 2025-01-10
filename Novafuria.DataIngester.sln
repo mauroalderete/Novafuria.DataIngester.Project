@@ -25,11 +25,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Life
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Lifecycle.Base.UseCases", "Novafuria.DataIngester.Lifecycle.Base.UseCases\Novafuria.DataIngester.Lifecycle.Base.UseCases.csproj", "{AC5FB2BD-EB51-4808-AFEF-10B3DF0517DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novafuria.DataIngester.Preparer.Domain.UseCase", "Novafuria.DataIngester.Preparer.Domain.UseCase\Novafuria.DataIngester.Preparer.Domain.UseCase.csproj", "{856C5F95-F81B-4A58-AD63-8888242798A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Preparer.Domain.UseCase", "Novafuria.DataIngester.Preparer.Domain.UseCase\Novafuria.DataIngester.Preparer.Domain.UseCase.csproj", "{856C5F95-F81B-4A58-AD63-8888242798A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novafuria.DataIngester.Prepaper.Domain.Core", "Novafuria.DataIngester.Prepaper.Domain.Core\Novafuria.DataIngester.Prepaper.Domain.Core.csproj", "{A5DBF157-C66C-4FCD-ACA4-DBED7B793056}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Prepaper.Domain.Core", "Novafuria.DataIngester.Prepaper.Domain.Core\Novafuria.DataIngester.Prepaper.Domain.Core.csproj", "{A5DBF157-C66C-4FCD-ACA4-DBED7B793056}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novafuria.DataIngester.Galicia.Prepaper.UseCase", "Novafuria.DataIngester.Galicia.Prepaper.UseCase\Novafuria.DataIngester.Galicia.Prepaper.UseCase.csproj", "{264E626C-25AB-4DE2-8BBF-35738B312F17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novafuria.DataIngester.Galicia.Prepaper.UseCases", "Novafuria.DataIngester.Galicia.Prepaper.UseCase\Novafuria.DataIngester.Galicia.Prepaper.UseCases.csproj", "{264E626C-25AB-4DE2-8BBF-35738B312F17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novafuria.DataIngester.Preparer.UseCase", "Novafuria.DataIngester.Preparer.UseCase\Novafuria.DataIngester.Preparer.UseCase.csproj", "{75AB6575-493F-46FE-9E78-0FA688D49931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novafuria.DataIngester.Preparer.Temporalio.UseCases", "Novafuria.DataIngester.Preparer.Temporalio.UseCases\Novafuria.DataIngester.Preparer.Temporalio.UseCases.csproj", "{DCEE6AEE-BEFF-40BE-9E38-94DE809DCEF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +97,14 @@ Global
 		{264E626C-25AB-4DE2-8BBF-35738B312F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{264E626C-25AB-4DE2-8BBF-35738B312F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{264E626C-25AB-4DE2-8BBF-35738B312F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75AB6575-493F-46FE-9E78-0FA688D49931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75AB6575-493F-46FE-9E78-0FA688D49931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75AB6575-493F-46FE-9E78-0FA688D49931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75AB6575-493F-46FE-9E78-0FA688D49931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCEE6AEE-BEFF-40BE-9E38-94DE809DCEF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCEE6AEE-BEFF-40BE-9E38-94DE809DCEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCEE6AEE-BEFF-40BE-9E38-94DE809DCEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCEE6AEE-BEFF-40BE-9E38-94DE809DCEF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

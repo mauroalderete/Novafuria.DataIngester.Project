@@ -44,9 +44,9 @@ namespace Novafuria.DataIngester.Lifecycle.Base.UseCases.Activities
         {
             await Task.Run(() =>
             {
-                foreach (var domainEvent in domainEvents)
-                {
-                }
+                //foreach (var domainEvent in domainEvents)
+                //{
+                //}
             });
         }
 
